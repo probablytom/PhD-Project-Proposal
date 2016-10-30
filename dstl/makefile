@@ -1,3 +1,7 @@
+allversions:
+	make headers
+	make noheading
+
 headers:
 	pdflatex proposal.tex
 	bibtex proposal.aux
