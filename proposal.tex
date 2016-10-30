@@ -11,7 +11,7 @@
 \graphicspath{{graphics/}}
 
 \title{Computational Trust for Enhanced Network Security}
-\author[Tom Wallis]{\href{http://tomwallis.net}{Tom Wallis} --- Glasgow University --- \href{mailto:2025138w@student.gla.ac.uk}{2025138w@student.gla.ac.uk}}
+\author[Tom Wallis]{\href{http://tomwallis.net}{Tom Wallis}}
 \date{}  % if the \date{} command is left out, the current date will be used
 
 % The following package makes prettier tables.  We're all about the bling!
@@ -49,17 +49,31 @@
 
 \maketitle% this prints the handout title, author, and date
 
-\begin{abstract}
-Sociotechnical systems research --- which can cover everything from workflow modelling, to analysing responsibility, to modelling the nature of human-like concepts like Trust --- can be deep and often powerful, but sees too little application in the real world. We seek to apply an analysis of trust, an active topic of research, in order to network security to create new and novel security techniques.
-\end{abstract}
+\bigskip
+
+\begin{rightflush}
+\begin{tabular}{l l}
+    University Name & Glasgow University\\
+    Supervisor Name & Timothy Storer \\
+    Nationality & Scottish / British \\
+    Email Address & \href{mailto:2025138w@student.gla.ac.uk}{2025138w@student.gla.ac.uk} \\
+\end{tabular}
+\end{rightflush}
 
 \bigskip
+
+\begin{abstract}
+\texttt{Abstract} ---\\
+Sociotechnical systems research --- which can cover everything from workflow modelling, to analysing responsibility, to modelling the nature of human-like concepts like Trust --- can be deep and often powerful, but see too little application in the real world. We seek to apply an analysis of trust, an active topic of research, to network security in order to create new and novel security techniques. This untapped research potential would allow a new layer of network security where intelligent agents assess their peers in a dynamic, resilient manner which humans can easily reason about.
+\end{abstract}
+
+\newpage
 
 \section{The sociotechnical field of Trust}
 As sociotechnical systems research continues to grow as a field, a greater number of human factors studies have fallen somewhat under its remit. For example: workflow analysis allows us to better identify organisational error; responsibility modelling allows us to better model systems such as electronic voting; computational trust gives both a human-like quality to machine learning \& AI, but \emph{also}, we propose here, to security.\par
 Computational Trust, and its relation to security, combine to make an especially deep subject of study which can often be neglected as a security measure in practice. There are good reasons why this might be: sociotechnical systems research can be difficult, and these systems themselves can be notoriously complex in practice.\cite{Crabtree2000} Many trust models exist, however, and are getting more detailed and expressive as the field grows.\par
 
-We see this as a wasted opportunity. Computational Trust models allow software systems to intelligently assess the safety and security of a system when faced with a given situation. As such, it can allow for security systems which grow in depth and complexity while remaining useable. For example, security requirements could increase beyond what would ordinarily be considered usable if the security system's degree of trust in the user rapidly declined.\sidenote{One can imagine constructing a computer system which governs its own security, allowing humans it knows and trusts to pass rigorous but less frustrating security tests for the user. This would permit a very high degree of security while minimising the error humans introduce when faced with security challenges they perceive as "difficult", like remembering complex passwords.} \par
+We see this as a wasted opportunity. Computational Trust models allow software systems to intelligently assess the safety and security of a system when faced with a given situation. As such, it can allow for security systems which grow in depth and complexity while remaining usable. For example, security requirements could increase beyond what would ordinarily be considered usable if the security system's degree of trust in the user rapidly declined.\sidenote{One can imagine constructing a computer system which governs its own security, allowing humans it knows and trusts to pass rigorous but less frustrating security tests for the user. This would permit a very high degree of security while minimising the error humans introduce when faced with security challenges they perceive as "difficult", like remembering complex passwords.} \par
 
 \section{The opportunity missed}
 Unfortunately, few applications of trust models to network security exist in the modern world. \emph{Why?} Moreover, why have these models failed to see application in real-world multi-agent systems, where multiple intelligent agents report to each other?\sidenote{In the case of, for example, inter-drone communication, a malicious agent could feed bad intelligence into other learning systems, causing them to act under improper training. To avoid these scenarios, it is imperative that agents can learn whether to \emph{trust} one-another, and re-assess that trust as other agents appear more or less trust-worthy.}\par
@@ -71,12 +85,12 @@ I therefore propose that important work is to be done on the application of trus
 
 As an example of the possible outcome of the work, a network monitoring artificial agent could be produced which analyses network security threats, categorised by origin and predicted intent, and filters trustworthy and untrustworthy sources such that appropriate security measures can be put in place. This agent could also flag potentially untrustworthy activity to human system administrators.\par
 
-This agent could take advantage of the slew of approaches to computational trust, as well as advancing the field's theoretical boundaries by providing a real-world application to test future models of trust against. Examples include modal logic approaches by Kramdi in 2015\cite{Kramdi} or social trust analysis from Urbano, Rocha and Oliveira in 2014\cite{Urbano2014}.\par
+This agent could take advantage of the slew of approaches to computational trust, as well as advancing the field's theoretical boundaries by providing a real-world application to test future models of trust against. Examples include modal logic approaches by Kramdi in 2015\cite{Kramdi} or social trust analysis from Urbano, Rocha and Oliveira in 2014\cite{Urbano2014}. Urbano et. al's work shows that current computational trust models can be enhanced through a greater social awareness of the system, and provide an example of a computational trust mechanism which achieves this. Kramdi's work enhances the logical frameworks used by many modern trust models, achieving a greater degree of rigour and implementing an abductive reasoning model for trust.\par
 
 \section{My Suitability}
-My own interest in sociotechnical systems is backed by research in the field. In 2015 and 2016 I completed my honours project, a workflow modelling system which used my own novel approach to program mutation to simulate human error in a sociotechnical model. For this, I won the 2016 Best Software Product prize for my year.\sidenote{A paper on the work is currently being written, alongside my project supervisor, Tim Storer.} I am now pursuing an MSci, for which my project is an adaptation of Trust models to create a model of computational responsibility. In doing this, I have grown an appreciation of the breadth and nuances of various models of trust, and look to employ this knowledge in PhD research.\par
+My own interest in sociotechnical systems is backed by research in the field. In 2015 and 2016 I completed my honours project, a workflow modelling system which used my own novel approach to program mutation to simulate human error in a sociotechnical model. For this, I won the 2016 Best Software Product prize for my year.\sidenote{A paper on the work is currently being written, alongside my project supervisor, Tim Storer. A working copy of the paper can be compiled from \LaTeX source at \href{https://github.com/probablytom/fuzzi-moss-paper}{https://github.com/probablytom/fuzzi-moss-paper}} I am now pursuing an MSci, for which my project is an adaptation of Trust models to create a model of computational responsibility. In doing this, I have grown an appreciation of the breadth and nuances of various models of trust, and look to employ this knowledge in PhD research.\par
 
-Aside from sociotechnical modelling, I am a part-time Python and project management consultant for a fintech startup in London\sidenote{This particular consulting contract follows my internship work for them doing software engineering this summer.}. I also pursue non-computer science research in a bid to broaden my horizons, such as the software engineering-inspired Project Albert\sidenote{\href{http://projectalbert.net}{More can be found at projectalbert.net}}, a set of design patterns for improvising childrens' bedtime stories. I am certain that my proven understanding of software engineering, strong familiarity with various sociotechnical modelling techniques, and clear zest for research make me an ideal PhD candidate.
+Aside from sociotechnical modelling, I am a part-time Python and project management consultant for a fintech startup in London\sidenote{This particular consulting contract follows my internship work for them doing software engineering this summer.}. I also pursue non-computer science research in a bid to broaden my horizons, such as the software engineering-inspired Project Albert\sidenote{\href{http://projectalbert.net}{More can be found at projectalbert.net}}, a set of design patterns for improvising children's bedtime stories. I am certain that my proven understanding of software engineering, strong familiarity with various sociotechnical modelling techniques, and clear zest for research make me an ideal PhD candidate.
 
 \nobibliography{proposal_bib}
 \bibliographystyle{plainnat}
