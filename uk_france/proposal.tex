@@ -1,0 +1,87 @@
+
+\documentclass{tufte-handout}
+
+%\geometry{showframe}% for debugging purposes -- displays the margins
+
+\usepackage{amsmath}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+\title{Computational Trust for Enhanced Network Security}
+\author[Tom Wallis]{\href{http://tomwallis.net}{Tom Wallis}}
+\date{}  % if the \date{} command is left out, the current date will be used
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+
+% CUSTOM for no bibliography print at the end
+\usepackage{bibentry}
+
+%% CUSTOM for todos taken from http://tex.stackexchange.com/questions/9796/how-to-add-todo-notes#9797
+%\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+%\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+%\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+%\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+%\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+%\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+\bigskip
+
+\section{Reactive, human-like security}
+Information security is an infamously complicated topic. When we design security systems, we have to be aware of all potential vectors of attack. Indeed, the job of building a security system is much harder than the job of breaking that system, because an attacker need only find one attack vector the designer did not consider to gain access. \par
+
+Security systems are getting smarter, however. Machine learning for information security is a topic with many interesting implications, and the field may well hold the answer to creating autonomous guardians of information systems which are capable of adapting and reacting faster than any human-managed system. \par
+
+However, there are gaps in our knowledge of machine learning systems as they pertain to information security. Particularly, human factors are often researched from the perspective of humans interacting with the machine learning system \cite{Barreno06canmachine}. However, another research opportunity which may prove very fruitful is the building of human factors into the security system itself. Research on computational models of trust and comfort have rarely been applied to a security mindset --- with only a little published work so far \cite{nokiaresearch} --- and future developments in the field will undoubtedly require computational concepts of
+the responsibilities and trustworthinesses of other intelligent security agents that a software system interacts with. Research on fields such as computational trust are already well-established. \par
+
+\section{Solutions we can trust}
+These hypothetical security systems would need to embody traits such as trust or responsibility in a human-like way, because they would likely also interact with human agents in their day-to-day roles. Therefore, a socially-based formulation of traits like trust need to be applied to security systems with an eye to eliminating human-like flaws and retaining enough human likeness that the system can be reasoned about by a human agent. This work is already well underway in the field of sociotechnical research \cite{Marsh1994}. Newer paradigms for trust also examine notions such as Distrust and Mistrust, as well as involved logics for trust \cite{Kramdi} which allow for more nuanced models of trust which retain computability. \par
+
+In deciding whether to trust an external agent, a security system can be enhanced in a number of ways. Security levels can become dynamic, to greatly increase the work needed to access a system when an agent's activity is suspicious. In addition, human operators of this system need to unbderstand why a security system with non-deterministic behaviour is acting in a certain way; using human-like traits to make decisions around security allows the human agent to better understand the computer's actions, leading to less human-centric error. Using machine learning and trust over and above existing security techniques would also allow previously unseen security threats to be mitigated quickly by a computer which can react and learn faster than a human agent can, without the downsides of fatigue and bias that a human security analyst might experience during an attack.\par
+
+My own masters research involves a computational formalism of responsibility --- work I would like to use in conjunction with existing trust and comfort research to create a security system with three human-like elements. Trust, responsibility, and comfort influence each other and the actions we take, and with computational formalisms of each, this could be used to develop a security layer which interprets activity and intent for a better understanding of potential threats. A system which has a responsibility to prevent attacks and is presented with strange instructions from an agent it would usually trust would weigh up its comfort with the strange instruction against its trust of an agent. A modestly trustworthy agent may be presented with additional security measures before the secure system is comfortable enough to proceed with the request.\par
+
+\section{My suitability for building this solution}
+My own interest in sociotechnical systems is backed by research in the field. In 2015 and 2016 I completed my honours project, a workflow modelling system which used my own novel approach to program mutation to simulate human error in a sociotechnical model. For this, I won the 2016 Best Software Product prize for my year.\sidenote{A paper on the work is currently being written, alongside my project supervisor, Tim Storer. A working copy of the paper can be compiled from \LaTeX source at \href{https://github.com/probablytom/fuzzi-moss-paper}{https://github.com/probablytom/fuzzi-moss-paper}} I am now pursuing an MSci, for which my project is an adaptation of Trust models to create a model of computational responsibility. In doing this, I have grown an appreciation of the breadth and nuances of various models of trust, and look to employ this knowledge in PhD research.\par
+
+Having already pursued sociotechnical research in the subfield of trust and responsibility, and having developed personally the responsibility formalism required to begin this proposed work, I am uniquely suitable as a candidtate to devleop this next generation of security models. \todo{more here}
+
+\nobibliography{proposal_bib}
+\bibliographystyle{plainnat}
+
+
+
+\end{document}
