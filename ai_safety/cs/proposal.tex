@@ -1,0 +1,46 @@
+\include{preamble}
+\title{Anthropomorphic Algorithms for AI Safety}
+\author[Tom Wallis]{\href{http://tom.coffee}{Tom Wallis}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Anthopomorphic algorithms}
+\newthought{For a long time}, sociotechnical systems analysis within computing science has been developing formalisms of human-like traits, such as trust and comfort. These allow an intelligent agent to interact with other agents in its environment in measured, cautious ways; they might be used, for example, to decide whether it should accept information from another agent if its behaviour is becoming erratic (or to discard previous data which is no longer ``trustworthy''). \par
+
+These anthopomorphic algorithms are undergoing continual improvement\cite{Kramdi}\cite{Urbano2014}, but some problems remain unexplored. While various different anthropmorphic algorithms have been developed, none have been combined into a system with several traits. \par
+
+For example, an algorithm might be designed where an agent's ratings of trust and comfort in a given scenario influence each other --- not unlike a human's lack of trust in an agent making it less comfortable with certain situations.\par
+
+\newthought{However}, one exciting unexplored problem is that of AI safety: could anthopomorphic algorithms give humanity an edge in developing friendly AI\@? For example, if we can limit its space of mind\cite{shanahan, sloman_spaceofminds}, perhaps we can limit potential damage from an artificial agent. Perhaps developing anthropomorphic agents allows us to reason better about how an artificial agent can be unfriendly, allowing us to better predict catastrophies related to the agent turning malicious. In any case, further research is required to determine the method's efficacy, and to explore the practical applications of these anthropomorphic algorithms.\par
+
+% \newpage
+
+\section{Responsibility and its implications}
+% The affect of responsibility
+\newthought{As a masters student} at Glasgow University, my current research is in developing a computational formalism of ``responsibility''. This formalism would be the first algorithmic definition of an agent's responsibility, and fits the above problems perfectly. The formalism is similar to current trust and comfort models, making it easy to integrate with existing frameworks into an agent with several anthropomorphic traits. Most interestingly, an intelligent agent with a concept of responsibility is useful to analyse from the perspective of AI safety in a way that trust and comfort models are less suitable.\par
+
+% Work that can be done now
+As a result of the wealth of literature on responsibility for human agents, much work can be done to teach artificial agents to act in responsible ways; either in developing machine learning algorithms which tune the parameters of an agent's feeling of responsibility, or in imposing a strict sense of repsonsibility on that agent. The notion that computational responsibility might improve agent corrigability\cite{corrigability} is an exciting prospect. Computational responsibility also provides an analogous framework to existing human responsibility to begin reasoning about how intelligent agents might relate to traditional moral responsibility. Plenty of work relating to existing philosophical literature becomes applicable to intelligent agents on the advent of computational responsibility.\par
+
+\newthought{I propose} that the breadth and practicality of this work represents a substantial addition to the current literature on intelligent agents, and that the introduction of computational responsibility to the growing arsenal of anthopomorphic algorithms represents a turning point in the relevance of anthropomorphic algorithms to philosophical literature. At a stretch, anthropomorphic algorithms may even represent a new area in the study of artificial intelligence safety, which promises to advance literature for both computing science, and presents interesting moral repsonsibility and machine ethics collaborations with philosophical research.
+
+% \newpage
+\section{My suitability}
+
+% my model of computational responsibility
+\newthought{Given my experience} developing this computational responsibility formalism, I am uniquely equipped to begin the research to be done. The formalism I have designed has been purposefully created with a philosophical foundation in mind, drawing from work by P.F. Strawson\cite{freedomandresentment} and Ben Colburn, but has equal foundation in computational disciplines such as machine learning and sociotechnical systems modelling\cite{sommerville_resp_depend}. In addition, the breadth of the work to be done makes it ideal for pursuit as a PhD project.\par
+
+% my experience with AI, sociotechnical systems and research
+\newthought{My other experience} in research falls into two fields. \par
+
+The first, sociotechnical systems, involves analysis of complex systems of people and the technology they interact with; my work was to create a modelling system which allowed simulation of sociotechnical workflows without barriers to entry like understanding of a domain-specific modelling language.\marginnote{A paper on this work is currently being developed, which can be found \href{https://github.com/probablytom/fuzzi-moss-paper}{at http://bit.ly/2gi4GD0}. My original dissertation can be found \href{https://github.com/probablytom/diss-doc/blob/master/Honours_Dissertation.pdf}{at http://bit.ly/2fYbcgy}.} These models were then dynamically altered during runtime by a code fuzzer I designed and implemented, which injected human-like variance into the model, allowing for accurate simulations of human behaviour using simple modelling techniques. This research won an award for ``Best Software Product'' for my year.\par
+
+\newthought{Other research} I pursue lies in the field of experimental storytelling. \marginnote{Information on Project Albert can be found at \href{http://projectalbert.net/}{http://projectalbert.net/}.}Project Albert explores the possibility that improvisation of children's bedtime stories might be made easier and more accessible by use of design patterns, which generalise complex ideas by turning them into interrelated rules which are defined semantically.\marginnote{An essay on the work so far and its efficacy is currently under development, which can be found \href{https://github.com/probablytom/Albert-paper}{at http://bit.ly/2fZvggr}.} A full suite of design patterns have been developed, with example stories which follow the patterns. The intention is to provide a framework for parents to share stories with their children which have some sentimental value as a result of the improvisation and random aspect, as well as to provide a way for parents to connect through stories when they cannot necessarily afford books to read from. 
+
+\nobibliography{biblio}
+\bibliographystyle{plainnat}
+
+\end{document}
