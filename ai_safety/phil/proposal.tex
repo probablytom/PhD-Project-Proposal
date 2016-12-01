@@ -1,0 +1,61 @@
+\include{preamble}
+\title{Anthropomorphic Algorithms for AI Safety}
+\author[Tom Wallis]{\href{http://tom.coffee}{Tom Wallis}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{AI Safety and Existential Risk}
+
+% Corrigability is a big problem for existential risk and AI safety in general
+% It's not the only problem:
+% - Concrete problems paper
+% - Ethical and roboethical concerns
+\newthought{A general artificial intelligence}, should it be constructed, would be very dangerous. There are many reasons for this. For example, a recent paper discusing an artificial intelligence's corrigibility\cite{corrigability} discusses scenarios where a general artificial intelligence may resist human control. If this agent was dangerous --- which is probable --- then the problem of corrigibility becomes very important indeed.\par
+
+\newthought{Other similar problems} exist, too. We are aware of some concrete problems in AI which experts can work on solving today\cite{concrete_problems} --- one particularly interesting issue is that of Reward Hacking, where an agent might ``cheat'' its reward functions in order to achieve its goals. While this could be harmless on inconvenient at best (a cleaning robot, say, which shuts its eyes and believes no mess exists because it can't see any), it could be devastating at worst. Unprecidented action which \emph{technically} achieves goals but inadvertantly causes other problems (or immediate harm) could be cataclysmic when done by a sufficiently intelligent algorithm.cataclymr
+
+% Anthropomorphic algorithms pose a potential solution.
+\newthought{In my research} this year on computational responsibility formalisms --- algorithms which imbue an intelligent agent with a sense of ``responsibility'' as it chooses actions to achieve its goals --- I believe I have found an interesting opportunity to solve these problems using what I term ``anthropomorphic algorithms''
+
+\section{Anthropomorphic algorithms and Philosophy: solving problems}
+
+% Algorithmics -> Michael Devitt's experimental semantics
+% - There's a theory to put together on anthropomorphic algorithms.
+% - We can begin to theorise about how to control & design intelligent
+%       agents with an eye to testing these ideas. 
+\newthought{While there are} computer science researchers attempting to solve these problems using algorithmic techniques, philosophical work can see less implementation as a result of its often metaphysical nature.\par
+
+However, this doesn't have to be the case. Michael Devitt's work in experimental semantics\cite{experimental_semantics} is a shining example of philosophical research which is backed by data and concrete, repeatable examples. Computational responsibility, and anthropomorphic algorithms in general, afford philosophical theory another avenue to test theories by.\par
+
+Indeed, anthropomorphic algorithms provide other problems for philosophy to solve; the claim of imbuing a computer with human traits is a contentious one, and as computer science, sociology and psychology continues to refine formalisms of ordinarily human traits, the necessity of philosophical literature on the topic increases proportionally.\par
+% While there *are* concrete problems, they're too complex for CS or philosophy
+%     on their own.
+% - We need to combine the two
+% This is an exciting opportunity to solve real & important problems,
+%     further experimental philosophy, and combine literature on philosophy
+%     and CS in helpful ways.
+\newthought{Unfortunately}, the problem of AI safety --- while one of existential risk --- is also one requiring collaboration between various fields, including philosophy, computer science, psychology, political science\marginnote{An interesting political question related to general artificial intelligence is that, should we have an intelligence of roughy equal ``intelligence'' to humans, this introduces the social quandry of rights. Intelligence seems to be the important factor in allocation of rights: some countries award rights to animals like dolphins and intelligent apes, but less intelligent animals are less often afforded this thought.} and others. Fortunately, anthropomorphic algorithms provide a framework for interdisciplinary research between all of these fields.\par
+
+I propose that a significant body of philosophical literature stands to be written on the subject. Particularly, I am excited to investigate the impact of anthropomorphic algorithms on the corrigibility of intelligent agents, and their application to the solution of the reward hacking problem, as well as the ethical concerns regarding the development truely anthropomorphic intellect.
+
+\section{My suitability}
+
+% Interest in existential risk
+% Writing and interest in unusual interdisciplinary study
+% - Project Albert
+% Research experience and experience with anthropomorphics
+\newthought{Given my experience} developing the first computational responsibility formalism, I am uniquely equipped to begin the proposed research. The formalism I have designed has been purposefully created with a philosophical foundation in mind, drawing from work by P.F. Strawson\cite{freedomandresentment} and Thomas Scanlon\cite{scanlon2006justice}, and an equal foundation in computational disciplines such as machine learning and sociotechnical systems modelling\cite{sommerville_resp_depend}.
+
+\newthought{My other experience} in research falls into two fields. \par
+
+The first, sociotechnical systems, involves analysis of complex systems of people and technology they interact with; my work was to create a modelling system which allowed simulation of sociotechnical workflows without barriers to entry like understanding of a domain-specific modelling language.\marginnote{A paper on this work is currently being developed, which can be found \href{https://github.com/probablytom/fuzzi-moss-paper}{at http://bit.ly/2gi4GD0}. My original dissertation can be found \href{https://github.com/probablytom/diss-doc/blob/master/Honours_Dissertation.pdf}{at http://bit.ly/2fYbcgy}.} These models were then dynamically altered during runtime by a code fuzzer I designed and implemented, which injected human-like variance into the model, allowing for accurate simulations of human behaviour using simple modelling techniques. This research won an award for ``Best Software Product'' for my year. I believe that my experience researching complex systems of this nature natually lends itself to existential risk research.\par
+
+\newthought{Other research} I pursue lies in the field of experimental storytelling. \marginnote{Information on Project Albert can be found at \href{http://projectalbert.net/}{http://projectalbert.net/}.}Project Albert explores the possibility that improvisation of children's bedtime stories might be made easier and more accessible by use of design patterns, which generalise complex ideas by turning them into interrelated rules which are defined semantically.\marginnote{An essay on the work so far and its efficacy is currently under development, which can be found \href{https://github.com/probablytom/Albert-paper}{at http://bit.ly/2fZvggr}.} A full suite of design patterns have been developed, with example stories which follow the patterns. The intention is to provide a framework for parents to share stories with their children which have some sentimental value as a result of the improvisation and random aspect, as well as to provide a way for parents to connect through stories when they cannot necessarily afford books to read from. 
+
+\nobibliography{biblio}
+\bibliographystyle{plainnat}
+
+\end{document}
