@@ -49,10 +49,8 @@ doi: 10.2165/00128413-199409230-00010
 anthropomorphic algorithms for ai safety
 
 However, this doesn’t have to be the case. Michael Devitt’s work
-in experimental semantics4 is a shining example of philosophical
-research which is backed by data and concrete, repeatable examples.
-Computational responsibility, and anthropomorphic algorithms in
-general, afford other avenues to test philosophical theory by.
+in experimental semantics4 is a shining example of philosophical research which is proven through data and concrete, repeatable examples. Computational responsibility, and anthropomorphic algorithms
+in general, afford other avenues to test philosophical theory by.
 Indeed, anthropomorphic algorithms provide other problems for
 philosophy to solve: the claim of imbuing a computer with human
 traits is a contentious one, and as computer science, sociology and
@@ -200,8 +198,21 @@ having undertaken only half of the research so far, demonstrates
 both my aptitude for philosophical study and the very real potential
 for prolific development of a new angle in AI Safety and theories of
 mind.
+It is a certain fact that Oxford University presents the perfect
+environment to pursue this research, through the work done by the
+Future of Humanity Institute especially. Not only does Oxford University promote a healthy interdisciplinary research environment,
+but its experts in the field — some of whom are cited in this very
+document — lead the international research community in this area.
+Aside from the honour of learning under these global leaders of the
+field, the task of refining and developing these behavioural techniques is unusually complex and nuanced — it requires their guidance to lay proper groundwork, as its contribution to the field has
+much potential.
+Oxford University may also be the only suitable candidate as a
+location to pursue this research. Few institutions display the openminded approach to such a combination of philosophy with computing science, and Oxford University appears to far outstrip other
+places of research in its focus on AI Safety as an existential risk
+threat, combined with the success of the Future of Humanity Institute in highlighting and addressing problems in the field. If this
+research is to be conducted anywhere, it must be Oxford.
 I am excited to begin the philosophical work, and doubtless that
-the opportunities it permits will be not only vast, but deeply fascinating.
+the opportunities it permits will be not only vast, but deeply fascinating, and of great impact.
 Thank you for your consideration.
 Cordially,
 Tom Wallis.
