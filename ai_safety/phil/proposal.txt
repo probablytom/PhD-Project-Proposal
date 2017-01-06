@@ -17,8 +17,7 @@ of “responsibility” as it chooses actions to achieve its goals — I believe
 using what I term “anthropomorphic algorithms”. Anthropomorphic
 Algorithms are algorithms which simulate a social human trait in an
 artificial agent. Examples of anthropomorphic algorithms already
-widely researched would be ones termed “computational trust”,
-versions of which are now several years old3 , but rarely researched
+widely researched would be ones termed “computational trust”, versions of which are now several decades old3 , but rarely researched
 outside of sociological and sociotechnical research. I believe that an
 application of these algorithms lies in researching and implementing
 philosophical theories of AI safety.
@@ -68,14 +67,18 @@ I propose that a significant body of philosophical literature stands
 to be written on the subject. Particularly, I am excited to investigate
 the impact of anthropomorphic algorithms on the corrigibility of
 intelligent agents, as well as their application to the solution of the
-reward hacking problem. Introducing human-like traits to an artificial agent may make it controllable via indirect means. It could also
-be used to demonstrate artificial agents which are capable of reward
-hacking, but unwilling to act on this ability due to an ingrained sense
-of responsibility. I am also interested in researching the problems in
-roboethics and moral responsibility arising from the introduction of
-anthropomorphic agents.
+reward hacking problem, and have a working paper detailing a technique which allows just this. The method presented is unusual, in
+that it constrains behaviour through analysis with that of humans —
+in applying anthropomorphic algorithms — rather than tweaking aspects of the AI engineering itself. Introducing human-like traits to an
+artificial agent may make it controllable via indirect means. It could
+also be used to demonstrate artificial agents which are capable of reward hacking, but unwilling to act on this ability due to an ingrained
+sense of, for example, responsibility.
 
-2
+Proposed Work
+Specific work I intend to work on during a DPhil at Oxford University involves developing further anthropomorphic formalisms,
+performing interdisciplinary research in order to assert the applicability of a formalism to the problem of AI safety, and further developing the technique as it pertains to both AI Safety and theories of
+mind. The formalisms developed would be used to further the relevant philosophical and computational technique of my own design,
+which presents new ways to analyse the space of possible minds and
 
 Michael Devitt. Experimental semantics. Philosophy and Phenomenological
 Research, 82(2):418–435, 2011
@@ -93,23 +96,12 @@ animals are less often afforded this
 thought.
 5
 
-Proposed Work
-Specific work I intend to work on during a DPhil at Oxford University involves developing further anthropomorphic formalisms,
-performing interdisciplinary research in order to assert the applicability of a formalism to the problem of AI safety, and further developing the technique as it pertains to both AI Safety and theories of
-mind. The formalisms developed would be used to further the relevant philosophical and computational technique of my own design 6 ,
-which presents new ways to analyse the space of possible minds and
-approach AI safety through behaviour constraint.
-Problems to be solved in this work involve the application of the
-
-Tom Wallis. On anthropomorphic
-algorithms. Paper currently in
-progress, recent draft can be found at
-https://github.com/probablytom/PhDProjectProposal/blob/master/ai_safety/cs/proposal.pdf.,
-2016
-6
+2
 
 anthropomorphic algorithms for ai safety
 
+approach AI safety through behaviour constraint.
+Problems to be solved in this work involve the application of the
 theory to a broader range of theories of mind, as well as asserting
 a-priori its application to AI Safety and its validity as an empirical
 philosophical tool.
@@ -133,26 +125,26 @@ constitute a significant advancement in the field on its own.
 Personal Statement
 Given my experience developing the first computational responsibility formalism, I am uniquely equipped to begin the proposed research. The formalism I have designed has been purposefully created
 with a philosophical foundation in mind, drawing from work by P.F.
-Strawson7 and Thomas Scanlon8 , and an equal foundation in computational disciplines such as machine learning and sociotechnical
-systems modelling9 . Therefore, its design lends itself to the testing
+Strawson6 and Thomas Scanlon7 , and an equal foundation in computational disciplines such as machine learning and sociotechnical
+systems modelling8 . Therefore, its design lends itself to the testing
 of philosophical theories while relating to computer science research
 on artificial intelligence rather nicely. The formalism is inspired in
-its design by Marsh’s seminal model of computational trust10 , which
+its design by Marsh’s seminal model of computational trust9 , which
 itself was inspired by mathematics, psychology and sociology —
 an intention of its design was its inter-disciplinary potential as a research tool. The formalism of responsibility, then, follows in Marsh’s
 ideological footsteps, but with a philosophy-centric focus.
 Aside from anthropomorphic algorithms, I have other research experience relevant to the AI safety work proposed.
 One example of this is the experimental literature project I run
-extra-curricularly, Project Albert11 . Project Albert is an application of
+extra-curricularly, Project Albert10 . Project Albert is an application of
 systems design techniques to children’s bedtime story improvisation.
 I am particularly interested in experimental techniques for humanities research, much in the vein of Michael Devitt’s experimental
-semantics12 — I look forward to applying this mindset to philosophy
+semantics11 — I look forward to applying this mindset to philosophy
 research also, particularly as the proposed research is fundamentally
 interdisciplinary.
-Another relevant research project would be my sociotechnical systems modelling project for my honours year13 . This project applied a
+Another relevant research project would be my sociotechnical systems modelling project for my honours year12 . This project applied a
 novel modelling approach for sociotechnical systems to a new system
 for injecting variance into those models — both of which were my
-own design14 . The project then used these new approaches to insert
+own design13 . The project then used these new approaches to insert
 human-like mistakes in the artificial agents modelled. Sociotechnical
 modelling, as well as and the representation of human traits in these
 models, naturally lend themselves to the proposed research.
@@ -163,30 +155,30 @@ to a new method to tackle problems of reward hacking and corrigibility, but I ha
 
 P.F Strawson. Freedom and resentment. Proceedings of the British Academy,
 Vol. 48, 1960
-8
+7
 Thomas M Scanlon. Justice, responsibility, and the demands of equality.
 2006
-9
+8
 Ian Sommerville. Models for responsibility assignment. In Responsibility and
 Dependable Systems, chapter 10
-7
+6
 
 Stephen Paul Marsh. Formalising
 Trust as a Computational Concept.
 Computing, Doctor of(April):184, 1994.
 doi: 10.2165/00128413-199409230-00010
-10
+9
 
 Information on Project Albert can be
 found at http://projectalbert.net/.
-11
+10
 
 An essay on the work so far and
 its efficacy is currently in early development, and can be found at
 http://bit.ly/2fZvggr.
-12
+11
 
-13
+12
 This work won the prize for “best
 software product” for my year’s
 honours projects.
@@ -194,7 +186,7 @@ honours projects.
 A paper on this work is currently
 being developed, and can be found at
 http://bit.ly/2gi4GD0.
-14
+13
 
 anthropomorphic algorithms for ai safety
 
@@ -203,7 +195,7 @@ experimental philosophy research. The shift in my current research
 to a philosophical focus indicates that the locus of my own attention should shift accordingly, and Oxford University — with a rich
 AI Safety and interdisciplinary research community — provides the
 most fertile intellectual ground for this work to flourish. Indeed, the
-achievement of complete drafts of a working paper in philosophy15 ,
+achievement of complete drafts of a working paper in philosophy14 ,
 having undertaken only half of the research so far, demonstrates
 both my aptitude for philosophical study and the very real potential
 for prolific development of a new angle in AI Safety and theories of
@@ -221,6 +213,6 @@ algorithms. Paper currently in
 progress, recent draft can be found at
 https://github.com/probablytom/PhDProjectProposal/blob/master/ai_safety/cs/proposal.pdf.,
 2016
-15
+14
 
 

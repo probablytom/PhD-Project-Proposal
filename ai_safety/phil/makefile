@@ -9,3 +9,8 @@ upload:
 	git add .
 	git commit
 	git push
+
+wc:
+	make proposal
+	pdftotext proposal.pdf
+	wc -w proposal.txt
