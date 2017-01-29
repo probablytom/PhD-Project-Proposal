@@ -1,26 +1,39 @@
 \input{preamble}
 
+\author{Tom Wallis}
+\title{Investigating Anthropomorphic Algorithms}
+\date{}
+
 \begin{document}
 
-\section{Developing Anthropomorphic Algorithms}
+\maketitle
+
+% Section: Literature review, introduction
 
 % What are anthropomorphic algorithms?
-\newthought{For a long time}, sociotechnical systems analysis within computing science has developed formalisms of human-like traits, such as trust and comfort. These allow an intelligent agent to interact with other agents in its environment in measured, cautious ways: they might be used, for example, to decide whether it should accept information from another agent if its behaviour is becoming erratic (or to discard previous data which is no longer ``trustworthy'').\par
+\newthought{Computing science} has developed algorithmic formalisms of human-like traits, such as trust and comfort, for a little over two decades. These allow a computational agent to interact with other agents in its environment in more subtle, flexible ways: they might be used, for example, to decide whether it should accept information from another agent if its behaviour is becoming erratic (or to discard previous data which is no longer ``trustworthy'').\par
 
 % What are their history? Establish that you're an expert in the field.
 \newthought{Anthropomorphic Algorithms} are algorithms which simulate a social human trait in an artificial agent. Examples of anthropomorphic algorithms already widely researched would be ones termed ``computational trust formalisms'', versions of which are now decades old\cite{marsh1994}, but are rarely explored outside sociological and sociotechnical research.\par
 
 These anthropomorphic algorithms are undergoing continual improvement\cite{kramdi, Urbano2014}, but some problems remain unexplored. Exploration of the techniques within the scope of AI development might yield solutions to problems of corrigibility\cite{corrigibility} and reward hacking\cite{concrete_problems} in AI safety research. The technique implies that human behaviours can apply to non-biological ``minds'', useful to philosophy of mind research\cite{sloman_spaceofminds}.\par 
 
-Within the realm of computing science research, more anthropomorphic algorithms are yet to be developed, helping fields such as human-computer interaction to create more authentically human-feeling interfaces. Anthropomorphic Algorithms are an important area of research which can be expected to flourish in both computer science and interdisciplinary research.
+\newthought{Formalisms of human traits} are common outside of psychological research and similar, but these traits are less anthropomorphic than those backed by behavioural science. An example would be reputation formalisms developed by companies such as eBay, which users interact with as seller ratings. Variants of these formalisms are employed as the basis of more complex models, such as Eigentrust\cite{kamvar2003eigentrust}. Eigentrust's reputation model --- based on eBay's --- is then used to bootstrap a trust formalism. While this model has little basis in behavioural science, there exists strong empirical evidence that use of such formalisms can lead to much stronger peer-to-peer networks with ``trustworthy'' interactions between peers.\par
 
-\section{Future Developments}
+However, practical use of these formalisms can be challenging, for a number of reasons. Testing these formalisms and their implementations reliably can be a particular difficulty, as they tend to have no overarching model for their implementation or testing\cite{Chandrasekaran2011}. While this is problematic for reliably carrying out research on anthropomorphic algorithms, the lack of established engineering guidelines for developing, testing and deploying these formalisms means that industrial use is also elusive.\par
+
+Developing these guidelines is a complicated matter. In part, this is due to the nuanced nature of behavioural science. It is further complicated, however, by the different natures of the formalisms themselves. Some formalisms are developed so as to be rigidly logical\cite{Castelfranchi}, while others are primarily focused on behavioural traits and only then analysed algorithmically\cite{marsh1994}. Developing architectures and guidelines for these models, therefore, requires an understanding of their nuance.\par
+
+\newthought{Within the realm} of computing science research, more anthropomorphic algorithms are yet to be developed, helping fields such as human-computer interaction to create more authentically human-feeling interfaces. Anthropomorphic Algorithms are an important area of research which can be expected to flourish in both computer science and interdisciplinary research.
+
+\bigskip % Section: proposed work
 
 % What good future work can be done? Introduce the idea of combined traits.
 \newthought{One prerequisite to this research} is a develop a software architecture which allows for the combination of multiple traits. Current methods for designing multiple traits would involve developing a single formalism which modelled multiple traits. However, an architecture which combined these traits would permit combining sociological and psychological theories which have already been formalised, without the additional work of creating an overarching formalism for every trait combination.
 
 % Explain the utilities of combined traits. Show that an agent with combined traits is useful practically, like building a comfortable, trusting phone without needing to develop a theory of just comfort + trust.
 \newthought{Combining several traits} has a great deal of practical utility. To illustrate, one can imagine designing an interface to a mobile phone which takes into account a device's ``feeling'' of trust and comfort --- two traits which have already been formalised into anthropomorphic algorithms.\cite{Marsh2011, marsh1994} A mobile phone might have a degree of trust in the person it identifies as using it; less trustworthy users might be prohibited from accessing more sensitive information, such as medical information stored in systems like Apple's HealthKit database.\par
+
 The device might also have a degree of comfort which is diminished when the user it identifies as using it begins acting erratically. One would expect the degree of trust it had in a previously trustworthy user to decrease as a result --- perhaps its initial assessment of the user's trustworthiness was mistaken, or perhaps its identification of its user is incorrect. If erratic behaviour in this case decreased a feeling of trust, then trust and comfort are in some way linked. \par
 
 One can imagine similar situations where trust might affect the device's degree of comfort, where switching from a trusted to an untrusted user might result in a sharp decrease in comfort. It is important to design effective and simple ways to model these and other situations, then, so as to make the engineering of these useful systems as simple as possible. Research --- in a range of fields anthropomorphic algorithms touch, including and extending beyond computing science --- would be affected too, as the construction and testing of anthropomorphic systems would be simplified if their creation can be simplified.\par
@@ -30,11 +43,11 @@ One can imagine similar situations where trust might affect the device's degree 
 
 A good architecture would also explore the possibilities for a general format of these formalisms. For a formalism to work in the architecture, it might need to adhere to certain requirements. This lends an opportunity to develop a suitable architecture for the formalisms themselves, providing guidelines for new formalisms to be constructed against and adding coherency to the growing inventory of formalisms being studied.\par
 
+\bigskip % Section: suitability
+
 I propose that this work is a suitably sized and impacting topic for PhD level research. I also believe that the project holds much value, due to the pressing need for the anthropomorphic architecture to be developed. I am also inspired, however, due to the fact that my own masters level research involves developing new anthropomorphic algorithms for responsibility, and that the existence of this architecture would permit exciting new research opportunities is an observation born of my own enthusiasm for the topic. \par
 
-\section{Suitability}
-
-\newthought{Having developed}\todo{Is this section needed?} the only existing anthropomorphic algorithm for responsibility formalism, as well as having experience in sociotechnical systems research, I am very well suited to pursue this particular research project. My honours year dissertation\sidenote{My honours year dissertation received an A2, and the award for the best software engineering of my year --- despite it being a research project specifically instead of the engineering projects it competed with.} developed new sociotechnical modelling techniques for introducing human-like variance to workflow modelling with minimal overhead, so as to create human-readable workflow models which dynamically introduced human error during runtime. The models, and the dissertation project, were pure Python code. A paper on the work is currently in progress.\cite{wallis_2016_b} Sociotechnical modelling tackles similar problems to anthropomorphic algorithms, and my familiarity with computational models of human traits shows my familiarity with the field.\par
+\newthought{Having developed} the only existing anthropomorphic algorithm for responsibility formalism, as well as having experience in sociotechnical systems research, I am very well suited to pursue this particular research project. My honours year dissertation\sidenote{My honours year dissertation received an A2, and the award for the best software engineering of my year --- despite it being a research project specifically instead of the engineering projects it competed with.} developed new sociotechnical modelling techniques for introducing human-like variance to workflow modelling with minimal overhead, so as to create human-readable workflow models which dynamically introduced human error during runtime. The models, and the dissertation project, were pure Python code. A paper on the work is currently in progress.\cite{wallis_2016_b} Sociotechnical modelling tackles similar problems to anthropomorphic algorithms, and my familiarity with computational models of human traits shows my familiarity with the field.\par
 
 \newthought{Following this}, my MSci research project is to create a responsibility formalism --- all references here to responsibility formalisms are my own work. I am excited to continue the work, and know that once properly developed as a research field, responsibility formalism will play a vibrant role in the creation of mixed-trait models. My familiarity with the state-of-the-art, and my proven ability to push the state of the art in anthropomorphic algorithms research, is a testament to my suitability in carrying out this important next development in the field.\par
 
